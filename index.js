@@ -1,3 +1,8 @@
 const addDays = require("date-fns/addDays");
-const addDaysTODate = (days) => addDays(new Date("22 Aug 2020"), days);
+const addDaysTODate = (days) => {
+  const newDate = addDays(new Date(2020, 7, 22), days);
+  return `${newDate.getDate()}-${
+    newDate.getMonth() + 1
+  }-${newDate.getFullYear()}`;
+};
 module.exports = addDaysTODate;

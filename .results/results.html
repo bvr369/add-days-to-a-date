@@ -9,10 +9,10 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js"></script>
             <script src="js/view.js"></script>
         </head><body><div id="test-results">{
-  &quot;numFailedTestSuites&quot;: 1,
-  &quot;numFailedTests&quot;: 1,
-  &quot;numPassedTestSuites&quot;: 0,
-  &quot;numPassedTests&quot;: 2,
+  &quot;numFailedTestSuites&quot;: 0,
+  &quot;numFailedTests&quot;: 0,
+  &quot;numPassedTestSuites&quot;: 1,
+  &quot;numPassedTests&quot;: 3,
   &quot;numPendingTestSuites&quot;: 0,
   &quot;numPendingTests&quot;: 0,
   &quot;numRuntimeErrorTestSuites&quot;: 0,
@@ -36,21 +36,21 @@
     &quot;unmatched&quot;: 0,
     &quot;updated&quot;: 0
   },
-  &quot;startTime&quot;: 1677048185655,
+  &quot;startTime&quot;: 1677049923612,
   &quot;success&quot;: false,
   &quot;testResults&quot;: [
     {
       &quot;leaks&quot;: false,
-      &quot;numFailingTests&quot;: 1,
-      &quot;numPassingTests&quot;: 2,
+      &quot;numFailingTests&quot;: 0,
+      &quot;numPassingTests&quot;: 3,
       &quot;numPendingTests&quot;: 0,
       &quot;numTodoTests&quot;: 0,
       &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1677048186927,
-        &quot;runtime&quot;: 562,
+        &quot;end&quot;: 1677049925142,
+        &quot;runtime&quot;: 796,
         &quot;slow&quot;: false,
-        &quot;start&quot;: 1677048186365
+        &quot;start&quot;: 1677049924346
       },
       &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
@@ -96,34 +96,18 @@
           &quot;ancestorTitles&quot;: [
             &quot;Tests for Get Date After X Days&quot;
           ],
-          &quot;duration&quot;: 3,
-          &quot;failureDetails&quot;: [
-            {
-              &quot;actual&quot;: &quot;&quot;,
-              &quot;error&quot;: {
-                &quot;matcherResult&quot;: {
-                  &quot;pass&quot;: false
-                }
-              },
-              &quot;expected&quot;: &quot;&quot;,
-              &quot;matcherName&quot;: &quot;&quot;,
-              &quot;message&quot;: &quot;Error: expect(received).toMatch(expected)\n\nExpected pattern: /^5-5-2021$|^5-05-2021$/\nReceived string:  \&quot;Wed May 05 2021 00:00:00 GMT+0000 (Coordinated Universal Time)\&quot;&quot;,
-              &quot;passed&quot;: false,
-              &quot;stack&quot;: &quot;Error: expect(received).toMatch(expected)\n\nExpected pattern: /^5-5-2021$|^5-05-2021$/\nReceived string:  \&quot;Wed May 05 2021 00:00:00 GMT+0000 (Coordinated Universal Time)\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-2a/.tests/index.test.js:49:40)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
-            }
-          ],
-          &quot;failureMessages&quot;: [
-            &quot;Error: expect(received).toMatch(expected)\n\nExpected pattern: /^5-5-2021$|^5-05-2021$/\nReceived string:  \&quot;Wed May 05 2021 00:00:00 GMT+0000 (Coordinated Universal Time)\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-2a/.tests/index.test.js:49:40)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
-          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;Tests for Get Date After X DaysThe Function should return the date after x days from 22nd August 2020&quot;,
           &quot;location&quot;: null,
           &quot;numPassingAsserts&quot;: 0,
-          &quot;status&quot;: &quot;failed&quot;,
+          &quot;status&quot;: &quot;passed&quot;,
           &quot;title&quot;: &quot;The Function should return the date after x days from 22nd August 2020&quot;,
           &quot;id&quot;: &quot;NJSCPKWIWO_TEST_3&quot;
         }
       ],
-      &quot;failureMessage&quot;: &quot;  ● :::NJSCPKWIWO_TEST_SUITE_2:::Tests for Get Date After X Days › :::NJSCPKWIWO_TEST_3:::The Function should return the date after x days from 22nd August 2020\n\n    expect(received).toMatch(expected)\n\n    Expected pattern: /^5-5-2021$|^5-05-2021$/\n    Received string:  \&quot;Wed May 05 2021 00:00:00 GMT+0000 (Coordinated Universal Time)\&quot;\n\n      47 | describe(\&quot;:::NJSCPKWIWO_TEST_SUITE_2:::Tests for Get Date After X Days\&quot;, () =&gt; {\n      48 |   it(\&quot;:::NJSCPKWIWO_TEST_3:::The Function should return the date after x days from 22nd August 2020\&quot;, () =&gt; {\n    &gt; 49 |     expect(`${getDateAfterDays(256)}`).toMatch(/^5-5-2021$|^5-05-2021$/);\n         |                                        ^\n      50 |   });\n      51 | });\n      52 |\n\n      at Object.&lt;anonymous&gt; (index.test.js:49:40)\n&quot;
+      &quot;failureMessage&quot;: null
     }
   ],
   &quot;wasInterrupted&quot;: false
